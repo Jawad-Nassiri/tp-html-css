@@ -1,0 +1,617 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+span{
+    font-family: Italianno;
+    color: #eaa903;
+    font-size: 40px;
+    display: block;
+    font-weight: bold;
+}
+.main-container{
+    background-color: #000;
+}
+
+/* header start */
+
+.header{
+    height: 90vh;
+    background-image: url('../images/eggs.jpg');
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: center;
+    margin: 0 50px;
+}
+.header .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    font-size: 25px;
+    height: 120px;
+}
+.header .nav .nav-left p a,
+.header .nav .nav-right .nav-list-item li a{
+    color: #fff;
+    margin: 0 15px;
+}
+.header .nav .nav-right .nav-list-item{
+    display: flex;
+}
+.nav-list-item .nav-item #spe{
+    border: 1px solid orange;
+    padding: 15px 5px
+}
+.header .welcome{
+    text-align: center;
+    padding-top: 80px;
+}
+.header .title,
+.header .desc{
+    text-align :center;
+    padding-top: 60px;
+    font-size: 60px;
+    color: #fff;
+}
+.header .desc{
+    font-size: 30px;
+}
+
+/* header finished */ 
+
+
+/* main start */
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 250px 80px 250px;
+}
+.main .main-img,
+.main .main-desc{
+    width: 50%;
+    height: 600px;
+}
+.main .main-img{
+    border: 1px solid #eaa903;
+    padding: 20px 0 0 20px;
+}
+.main .main-img img{
+    width: 100%;
+    height: 100%;
+}
+.main .main-desc{
+    text-align: left;
+    padding: 100px 0 0 90px;
+}
+.main .main-desc h2{
+    color: #fff;
+    font-size: 35px;
+}
+.main .main-desc p{
+    color: #fff;
+    margin-top: 15px;
+    font-size: 18px;
+}
+.main .main-desc .see-more{
+    color: #eaa903;
+}
+.main .main-img.second{
+    order: 2;
+    padding: 20px 20px 0 0;
+}
+.main .main-desc.second{
+    order: 1;
+    padding: 100px 90px 0 0;
+}
+
+/* main finished  */
+
+
+/* menu description start  */
+
+.menu{
+    margin: 0 250px;
+    text-align: center;
+}
+.menu h2{
+    color: #fff;
+    font-size: 35px;
+    margin-top: 20px;
+}
+.menu p{
+    color: #fff;
+    font-size: 18px;
+    width: 80%;
+    margin: 20px auto 100px auto;
+}
+.menu .menu-list .list-item{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu .menu-list .list-item li{
+    margin: 0 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* menu description finished  */
+
+
+/* foods item start  */
+
+.foods{
+    margin: 100px 150px 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.foods .first-food-item{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.foods .first-food-item .food-img,
+.foods .first-food-item .food-desc{
+    width: 300px;
+    height: 300px;
+}
+.foods .first-food-item .food-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.foods .first-food-item .food-desc h3{
+    color: #fff;
+    font-size: 20px;
+    margin: 20px 30px;
+}
+.foods .first-food-item .food-desc p{
+    color: #fff;
+    font-size: 18px;
+    margin: 30px 30px 0 30px;
+}
+.foods .first-food-item .food-desc span{
+    margin-left: 30px;
+}
+.food-img.second,
+.food-img.fourth{
+    order: 2;
+}
+.food-desc.second,
+.food-desc.fourth{  
+    order: 1;
+}
+/* foods item finished  */
+
+
+/* chef start  */
+
+.chef{
+    margin: 100px 200px 0 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chef .chef-desc,
+.chef .chef-img{
+    width: 50%;
+}
+.chef .chef-img{
+    text-align: right;
+    padding-right: 150px;
+}
+.chef .chef-desc{
+    text-align: left;
+}
+.chef .chef-desc h2{
+    color: #fff;
+    font-size: 35px;
+    margin: 20px 0;
+}
+.chef .chef-desc p{
+    color: #fff;
+    font-size: 18px;
+}
+.chef .chef-desc p.see-more{
+    margin: 20px 0;
+    color: #eaa903;
+}
+
+/* chef finished  */
+
+/* reservation start   */
+
+.reservation{
+    margin: 10px 50px;
+    height: 600px;
+    background-image: url('../images/reservation.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+}
+.reservation h2{
+    color: #fff;
+    font-size: 35px;
+    margin: 30px 0;
+}
+.reservation p{
+    color: #fff;
+    font-size: 18px;
+    width: 800px;
+    margin: auto;
+}
+.reservation .res-btn{
+    display: flex;
+    margin: 40px 0;
+    justify-content: center;
+}
+.reservation .res-btn .btn a{
+    color: #fff;
+    font-size: 18px;
+    margin: 0 15px;
+    padding: 10px 75px;
+    border: 1px solid #fff;
+    opacity: 0.5;
+}
+.reservation .reserve-btn{
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #eaa903;
+    border-radius: 10px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+/* reservation finished   */
+
+
+/* date start  */
+
+.date{
+    margin: 50px auto 200px auto;
+    text-align: right;
+}
+.date span{
+    margin-right: 200px;
+}
+.date h2{
+    color: #fff;
+    font-size: 35px;
+    margin: 30px 200px 30px 0;
+}
+.date .reservation-day p{
+    color: #fff;
+    font-size: 18px;
+    width: 1000px;
+    margin: 0 auto 50px auto;
+}
+.date .our-blog{
+    color: #eaa903;
+    font-size: 18px;
+    margin-right: 200px;
+}
+
+/* date finished  */
+
+/* map start  */
+
+.map{
+    height: 500px;
+    margin: 0 50px;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+/* map finished  */
+
+
+/* footer start  */
+
+.footer{
+    height: 500px;
+    background-color: #383838;
+}
+.footer .footer-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer .footer-container div{
+    width: 400px;
+    height: 400px;
+    margin-top: auto;
+}
+.footer div h2{
+    color: #eaa903;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.footer div p{
+    color: #fff;
+    font-size: 18px;
+    width: 300px;
+} 
+.footer .history{
+    color: #fff;
+    margin-top: 70px;
+    font-size: 19px;
+    font-weight: bold;
+    width: 400px;
+}
+
+/* footer finished  */
+
+
+
+
+
+
+
+/* media query for medium devices (Tablet) */
+
+@media (max-width: 760px){
+    span {
+        font-family: Italianno;
+        color: #eaa903;
+        font-size: 30px;
+        display: block;
+        font-weight: bold;
+    }
+    .header {
+        margin: 0 20px;
+    }
+    .header .nav {
+        justify-content: center;
+        padding: 0 10px;
+        font-size: 14px;
+    }
+    .header .title, .header .desc {
+        padding-top: 30px;
+        font-size: 30px;
+    }
+    .header .desc {
+        font-size: 20px;
+    }
+    .main {
+        margin: 20px 50px 100px 50px;
+    }
+    .main .main-img {
+        padding: 10px 0 0 10px;
+        height: 350px;
+    }
+    .main .main-desc {
+        padding: 0px 0 0 20px;
+        height: 350px;
+    }
+    .main .main-desc h2{
+        font-size: 18px;
+    }
+    .main .main-img.second {
+        padding: 10px 0 0 10px;
+    }
+    .main .main-desc.second {
+        padding: 0px 0 0 20px;
+    }
+    .menu {
+        margin: 0 50px;
+    }
+    .foods {
+        margin: 100px 50px 0 50px;
+    }
+    .foods .first-food-item {
+        width: 100%;
+    }
+    .chef {
+        margin: 0px 50px 0 50px;
+    }
+    .chef .chef-img {
+        text-align: right;
+        padding-right: 0px;
+        width: 50%;
+    }
+    .chef .chef-img img {
+        text-align: right;
+        width: 100%;
+    }
+    .reservation {
+        margin: 10px 20px;
+        height: 500px;
+        padding: 50px;
+    }
+    .reservation p{
+        width: 80%;
+    }
+    .date {
+        margin: 50px 0 100px 0;
+        text-align: center;
+    }  
+    .date span{
+        display: block;
+        margin: auto;
+    }
+    .date h2{
+        margin: auto;
+        font-size: 25px;
+    }
+    .date .reservation-day{
+        margin: 20px 0 ;
+    }
+    .date .reservation-day p{
+        width: 90%;
+        margin: auto;
+    }
+    .date .our-blog {
+        text-align: center;
+        margin-right: 0px;
+    }
+    .map {
+        height: 500px;
+        margin: 0 20px;
+    }
+    .footer {
+        height: 400px;
+        background-color: #383838;
+    }
+    .footer .footer-container div {
+        width: 30%;
+        height: 250px;
+        margin: 15px;
+    }
+    .footer div h2 {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .footer div p {
+        font-size: 16px;
+        width: 100%;
+    }
+}
+
+
+
+/* media query for small devices (Tablet) */
+
+@media (max-width: 560px){
+    span {
+        font-family: Italianno;
+        color: #eaa903;
+        font-size: 25px;
+        display: block;
+        font-weight: bold;
+    }
+    .header {
+        margin: 0 10px;
+    }
+    .header .nav{
+        padding: 0 10px;
+        font-size: 14px;
+        height: 150px;
+        justify-content: space-between;
+    }
+    .header .nav .nav-right .nav-list-item {
+        display: block;
+        text-align: right;
+    }
+    .header .nav .nav-right .nav-list-item li {
+        margin: 10px 0;
+    }
+    .header .nav .nav-right .nav-list-item li #spe{
+        border: none;
+    }
+    .main {
+        flex-wrap: wrap;
+        margin: 0 20px 50px 20px;
+    }
+    .main .main-img {
+        width: 80%;
+        padding: 0;
+        margin: 20px auto;
+    }
+    .main .main-desc {
+        width: 80%;
+    }
+    .main .main-img.second {
+        padding: 0;
+        order: 1;
+    }
+    .main .main-desc.second {
+        order: 2;
+    }
+    .menu {
+        margin: 0 20px;
+    }
+    .menu h2 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .menu p {
+        width: 90%;
+        text-align: justify;
+        margin: 20px auto 70px auto;
+    }
+    .menu .menu-list .list-item li {
+        margin: 0 20px;
+    }
+    .foods {
+        margin: 70px 20px 0 20px;
+    }
+    .foods .first-food-item .food-img,
+     .foods .first-food-item .food-desc {
+        width: 50%;
+        text-align: center;
+    }
+    .foods .first-food-item .food-desc h3 {
+        font-size: 18px;
+        margin: 10px 15px;
+    }
+    .foods .first-food-item .food-desc p {
+        text-align: justify;
+    }
+    .chef {
+        margin: 70px 20px 0 20px;
+        flex-wrap: wrap;
+    }
+    .chef .chef-desc,
+     .chef .chef-img {
+        width: 100%;
+    }
+    .chef .chef-desc{
+        text-align: center;
+    }
+    .chef .chef-desc h2 {
+        font-size: 25px;
+        margin: 15px 0;
+    }
+    .chef .chef-desc p {
+        text-align: justify;
+    }
+    .chef .chef-desc .see-more {
+        text-align: center;
+    }
+    .reservation .res-btn .btn a{
+        margin: 0 10px;
+        padding: 10px 50px;
+    }
+    .footer div h2 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .footer .history {
+      display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
